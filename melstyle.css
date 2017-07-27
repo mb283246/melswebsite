@@ -19,7 +19,7 @@ body{
     top:0px; bottom:0px; right:0px; left:0px;
 }
 .title1{
-    diplay:block;
+    display:block;
     text-align:center;
     color:white;
     font-size:60pt;
@@ -38,17 +38,50 @@ body{
 .button{
     margin: 50px auto;
     display: block;
-    width: 100px;
-    height: 50px;
-    border: 3px solid white;
-    background-color:rgba(255,255,255,0);
-    color: white;
-    font-family:sans-serif;
+    width: 150px;
+    height: 20px;
+    border: 2px solid white;
+    background-color: white;
+    color: #0342A1;
+    text-align: center;
+    font-family: sans-serif;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 10px;
+    text-decoration: none;
 }
 .learn:hover{
     background-color:rgba(255,255,255,1);
     color:#222;
     cursor:pointer;
+}
+.welcome{
+    
+}
+.intro{
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 25pt;
+    font-family:'Montserrat Alternates', sans-serif;
+    font-weight:bold;
+}
+.navigate{
+    overflow: hidden;
+    background-color: #72AAED;
+    
+}
+.navigate a{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 18px 25px;
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+    font-family:'Montserrat Alternates', sans-serif;
+    font-weight:bold;
+}
+.navigate a:hover{
+    background-color: white;
+    color: #72AAED;
 }
